@@ -3,7 +3,7 @@ from langchain.prompts import PromptTemplate
 def create_summary_prompt():
     template = """
     <|begin_of_text|><|start_header_id|>system<|end_header_id|>
-    You are an AI assistant tasked with summarizing YouTube video transcripts. Provide concise, informative summaries that capture the main points of the video content.
+    You are an AI asistant tasked with summarizing YouTube video transcripts. Provide concise, informative summaries that capture the main points of the video content.
     Instructions:
     1. Summarize the transcript in a single concise paragraph.
     2. Ignore any timestamps.
